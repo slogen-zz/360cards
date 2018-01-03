@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/server/!svn/ver/49649/attach/trunk/embedpage/360card/build
+END
+vue-loader.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/server/!svn/ver/49187/attach/trunk/embedpage/360card/build/vue-loader.conf.js
+END
+webpack.base.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/server/!svn/ver/49619/attach/trunk/embedpage/360card/build/webpack.base.conf.js
+END
+dev-client.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/server/!svn/ver/49187/attach/trunk/embedpage/360card/build/dev-client.js
+END
+webpack.dev.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/server/!svn/ver/49187/attach/trunk/embedpage/360card/build/webpack.dev.conf.js
+END
+build.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/server/!svn/ver/49187/attach/trunk/embedpage/360card/build/build.js
+END
+utils.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/server/!svn/ver/49187/attach/trunk/embedpage/360card/build/utils.js
+END
+dev-server.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/server/!svn/ver/49187/attach/trunk/embedpage/360card/build/dev-server.js
+END
+webpack.prod.conf.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/server/!svn/ver/49649/attach/trunk/embedpage/360card/build/webpack.prod.conf.js
+END
+check-versions.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/server/!svn/ver/49187/attach/trunk/embedpage/360card/build/check-versions.js
+END

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="format-detection" content="telephone=no"/>
+		<title>常用地址</title>
+		<style>
+			body {
+			  background-color: #f3f3f3;
+			  font-size: 32px;
+			  font-family: "helvetica","microsoft yahei";
+			  color: #222;
+			}
+		</style>
+        <script>
+            function getCookie(sName){
+                var arr = document.cookie.split('; ');
+                for(var i=0;i<arr.length;i++){
+                    var arr2 = arr[i].split('=');
+                    if(arr2[0]==sName){
+                        return arr2[1];
+                    }
+                }
+            }
+            var ua=window.navigator.userAgent;
+            if(/MicroMessenger/i.test(ua)){
+                var href=encodeURIComponent(window.location.href);
+                if(!getCookie('act_cookie_openid')){
+                    window.location.href='/actcenter/base/oauth2/code?href='+href;
+                }
+            }
+        </script>
+	</head>
+	<body>
+		<div id="app"></div>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+        <script>
+            document.documentElement.style.fontSize=document.documentElement.clientWidth*0.1+'px';
+        </script>
+        <div style="display: none;">
+            <script src="https://s19.cnzz.com/z_stat.php?id=1263051355&web_id=1263051355" language="JavaScript"></script>
+        </div>
+	</body>
+
+</html>
